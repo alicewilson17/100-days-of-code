@@ -70,3 +70,7 @@ Another day of the React Scrimba course - today was a deep dive on state and the
 ## Day 12
 
 Today in the React course we covered conditional rendering of components, and started looking at forms in React and how they differ from regular HTML forms.
+
+## Day 13
+
+Another day of the React course - continued with a deep dive into React forms and their various elements. Learned about controlled components, and the useId hook to help improve accessibility.
