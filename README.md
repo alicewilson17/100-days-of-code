@@ -74,3 +74,7 @@ Today in the React course we covered conditional rendering of components, and st
 ## Day 13
 
 Another day of the React course - continued with a deep dive into React forms and their various elements. Learned about controlled components, and the useId hook to help improve accessibility.
+
+## Day 14
+
+Today in my React course, I learned about side effects and how the useEffect() hook can be used to perform side effects in React components. This will be especially useful when making API calls within my React apps! Also learned about cleanup functions and the circumstances under which these are needed.
