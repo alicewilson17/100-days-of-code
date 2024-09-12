@@ -78,3 +78,16 @@ Another day of the React course - continued with a deep dive into React forms an
 ## Day 14
 
 Today in my React course, I learned about side effects and how the useEffect() hook can be used to perform side effects in React components. This will be especially useful when making API calls within my React apps! Also learned about cleanup functions and the circumstances under which these are needed.
+
+## Day 15 
+
+Started the final projects of the react scrimba course. Modified an existing codebase to implement a dark and light mode, and a toggle function to toggle between the two modes. Jumping in to an existing codebase and getting my head around the code is something I’ll have to do regularly as a software engineer so this was great practice.
+
+## Day 16 
+
+Added some new features to an existing codebase for a Markdown Notes App. Really taking the time to understand the codebase is a crucial skill when working with a company’s codebase as a software engineer.
+I added the following features:
+- Any changes to notes will be synced with localStorage, so the notes retained even after the app is refreshed. 
+- Changed the note title in the sidebar to be the first line of the note.
+- The most recently modified note is bumped to the top of the list.
+- The user can delete a note upon clicking the delete icon.
