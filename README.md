@@ -91,3 +91,13 @@ I added the following features:
 - Changed the note title in the sidebar to be the first line of the note.
 - The most recently modified note is bumped to the top of the list.
 - The user can delete a note upon clicking the delete icon.
+
+## Day 17
+
+Started refactoring the notes app to connect to firebase firestore. This means that the data will be saved to an actual database instead of localStorage, so the notes data is saved in a much more permanent and robust way.
+Set up Firestore project and connected it to the app. 
+Used the firebase onSnapshot function to keep the local array of notes in sync with the database.
+Bug to fix tomorrow: createNewNote function was changed to create a new note in the firestore database. Currently it is adding new things to the firestore collection when clicked, but it must not be syncing to the local array of notes, as it still thinks the array is empty and so it is not rendering the screen with the editor on it. 
+
+ 
+
