@@ -99,5 +99,9 @@ Set up Firestore project and connected it to the app.
 Used the firebase onSnapshot function to keep the local array of notes in sync with the database.
 Bug to fix tomorrow: createNewNote function was changed to create a new note in the firestore database. Currently it is adding new things to the firestore collection when clicked, but it must not be syncing to the local array of notes, as it still thinks the array is empty and so it is not rendering the screen with the editor on it. 
 
+## Day 18
+
+Started a new project: a yoga studio website. Today was a planning day - drew out the wireframes and put together a mockup of the landing page on Figma, and researched what tech stack I wanted to use. I love having full creative control with the UI - I'm really happy with how the design looks!
+
  
 
